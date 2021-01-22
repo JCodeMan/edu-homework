@@ -20,4 +20,4 @@ spring:
 
 
 test:
-  view: view3
+  view: view1
