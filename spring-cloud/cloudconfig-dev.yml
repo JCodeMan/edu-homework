@@ -12,11 +12,11 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-#   rabbitmq:
-#     host: 192.168.138.131
-#     port: 5672
-#     username: guest
-#     password: guest
+  rabbitmq:
+    host: 192.168.138.131
+    port: 5672
+    username: guest
+    password: guest
 
 
 test:
