@@ -1,4 +1,7 @@
-datasource:
+spring:
+  application:
+    name: lagou-service-user
+  datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.138.131:3306/spring_cloud?useUnicode=true&characterEncoding=utf8
     username: root
@@ -8,4 +11,4 @@ datasource:
     show-sql: true
     hibernate:
       naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl  #避免将驼峰命名转换为下划线命名
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
