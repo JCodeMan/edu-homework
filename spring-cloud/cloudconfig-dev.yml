@@ -20,7 +20,7 @@ user:
   register:
     time:
       limit:
-        millis: 10000
+        millis: 30000
     limit:
       times: 2
 
